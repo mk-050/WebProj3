@@ -8,11 +8,11 @@
 <title>お問い合わせフォーム</title>
 </head>
 <body>
-	<s:form method="post" action="INquiryCompleteAction">
+	<s:form method="post" action="InquiryCompleteAction">
 名前：<input type="text" name="name" />
 		<br>
 お問い合わせの種類：<br>
-		<select type="'qtype">
+		<select name="qtype">
 			<option value="company">会社について</option>
 			<option value="product">製品について</option>
 			<option value="support">アフターポートについて</option>
